@@ -1,0 +1,44 @@
+header {
+    background-color: blueviolet;
+}
+
+form {
+    align-items: center;
+    width: 400px;
+    justify-content: center;
+    align-items: center;
+    margin-left: 35%;
+}
+
+#yout {
+    align-items: flex-end;
+    color: red;
+    margin-right: 5px;
+    font-size: 25px;
+}
+
+#git {
+    align-items: flex-end;
+    color: rgb(0, 0, 0);
+    margin-right: 5px;
+    font-size: 25px;
+}
+
+#log {
+    align-items: flex-end;
+    color: blue;
+    margin-right: 5px;
+    font-size: 25px;
+}
+
+#mapa {
+    float: inline-end;
+    align-items: flex-end;
+    color: rgb(66, 51, 51);
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+#navbar-nav {
+    justify-content: center;
+    align-items: center;
+}
