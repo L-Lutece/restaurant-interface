@@ -1,0 +1,9 @@
+.SideBar {
+    position: absolute;
+    width: 60px;
+    height: 50px;
+    align-items: center;
+    justify-content: center;
+    display: grid;
+    z-index: 1;
+}
