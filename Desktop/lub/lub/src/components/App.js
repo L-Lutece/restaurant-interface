@@ -1,11 +1,18 @@
 import React from 'react';
 import './App.css';
+import logo from '../images/logo_transparent.png';
+
 
 function App() {
   return (
     <div clasName="container">
       <div className="App">
-          <h3>lol this is a lot damage</h3>
+        <div className="section1">
+          <h3 class="name">Lucas Carrilho</h3>
+          <p class="description">Desenvolvedor Front-End</p> 
+          <div className='logo'>
+          </div>
+        </div>
       </div>
     </div>
   );

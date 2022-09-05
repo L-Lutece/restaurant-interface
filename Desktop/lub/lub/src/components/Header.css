@@ -4,6 +4,9 @@
     background-color: rgb(60, 57, 57);
     font-family: 'Epilogue', sans-serif;
     height: 50px;
+    width: 100%;
+    position: fixed;
+    z-index: 10000;
 }
 
 .items {
