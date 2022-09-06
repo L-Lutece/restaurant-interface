@@ -6,7 +6,7 @@ function Header() {
     <div className="container">
         <div className="Header">
             <div className="items">
-                <a href="#">STACK</a>
+                <a href="#stack">STACK</a>
                 <a href="#">EDUCAÇÃO</a>
                 <a href="#">PROJETOS</a>
                 <a href="#">EXPERIÊNCIA</a>

@@ -2,25 +2,27 @@
 .App {
     background-color:rgb(32, 32, 32);
     height: 100%;
+    overflow-x: hidden;
+    overflow-y: hidden;
 }
 
-.section1 {
+.section {
     position: relative;
     width: 90%;
-    height: 800px;;
+    height: 750px;
     background-color: rgb(42, 40, 40);
     justify-content: center;
     align-items: center;
     top: 50px;
     left: 70px;
 }
+
 .name {
     position: relative;
     font-size: 80px;
     left: 160px;
     top: 290px;
     color: rgb(251, 251, 251);
-    font-style: italic;
 }
 
 .description {

@@ -1,0 +1,67 @@
+h4 {
+    font-size: 25px;
+}
+
+.App {
+    background-color: rgb(32, 32, 32);
+    height: 100%;
+    overflow-x: hidden;
+    overflow-y: hidden;
+}
+
+.section1 {
+    position: relative;
+    width: 90%;
+    height: 800px;
+    background-color: rgb(61, 61, 61);
+    justify-content: center;
+    align-items: center;
+    top: 50px;
+    left: 70px;
+}
+
+.title {
+    font-size: 39px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: rgb(0, 0, 0);
+    padding: 20px;
+}
+
+
+.star1 {
+    position: relative;
+    margin: 0 auto;
+    width: 90%;
+    height: 120px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(93, 93, 93);
+
+}
+
+.star2 {
+    top: 8px;
+    position: relative;
+    margin: 0 auto;
+    width: 90%;
+    height: 120px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(131, 122, 122);
+}
+
+.star3 {
+    top: 18px;
+    position: relative;
+    margin: 0 auto;
+    width: 90%;
+    height: 120px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(218, 166, 166);
+}
