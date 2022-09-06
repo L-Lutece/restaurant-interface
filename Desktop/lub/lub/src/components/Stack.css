@@ -13,7 +13,7 @@ h4 {
     position: relative;
     width: 90%;
     height: 800px;
-    background-color: rgb(61, 61, 61);
+    background-color: rgb(42, 40, 40);
     justify-content: center;
     align-items: center;
     top: 50px;
@@ -29,39 +29,68 @@ h4 {
     padding: 20px;
 }
 
+.textStar {
+    margin: 0 auto;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 25px;
+    border: 3px;
+    width: 800px;
+    height: 40px;
+}
+
+.img1 {
+    position: relative;
+    display: flex;
+    left: 180px;
+    color: aliceblue;
+    background-image: url('../images/Prog.jpeg') no-repeat center;
+    background-size: cover;
+}
+
+.starFather {
+    top: 230px;
+    position: relative;
+    display: row;
+}
 
 .star1 {
-    position: relative;
+    border: 2px solid rgb(46, 165, 35);
+    border-radius: 5px;
+    padding: 5px;
     margin: 0 auto;
-    width: 90%;
-    height: 120px;
+    width: 80%;
+    height: 80px;
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: rgb(93, 93, 93);
+    background-color: transparent;
 
 }
 
 .star2 {
-    top: 8px;
-    position: relative;
+    border: 2px solid rgb(221, 232, 13);
+    border-radius: 5px;
+    padding: 5px;
     margin: 0 auto;
-    width: 90%;
-    height: 120px;
+    width: 80%;
+    height: 80px;
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: rgb(131, 122, 122);
+    background-color: transparent;
 }
 
 .star3 {
-    top: 18px;
-    position: relative;
+    border: 2px solid rgb(233, 17, 17);
+    border-radius: 5px;
+    padding: 5px;
     margin: 0 auto;
-    width: 90%;
-    height: 120px;
+    width: 80%;
+    height: 80px;
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: rgb(218, 166, 166);
+    background-color: transparent;
 }

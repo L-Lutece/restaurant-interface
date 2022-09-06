@@ -7,8 +7,7 @@ function Header() {
         <div className="Header">
             <div className="items">
                 <a href="#stack">STACK</a>
-                <a href="#">EDUCAÇÃO</a>
-                <a href="#">PROJETOS</a>
+                <a href="#project">PROJETOS</a>
                 <a href="#">EXPERIÊNCIA</a>
                 <a href="#">CONTATO</a>
             </div>
