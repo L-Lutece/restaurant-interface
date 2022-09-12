@@ -33,7 +33,7 @@ h4 {
     display: flex;
     justify-content: center;
     align-items: center;
-    color: rgb(111, 110, 110);
+    color: rgb(155, 152, 152);
     padding: 20px;
 }
 
@@ -53,17 +53,9 @@ h4 {
     font-size: 25px;
     border: 3px;
     width: 800px;
-    height: 40px;
+    height: 10px;
 }
 
-.img1 {
-    position: relative;
-    display: flex;
-    left: 180px;
-    color: aliceblue;
-    background-image: url('../images/Prog.jpeg') no-repeat center;
-    background-size: cover;
-}
 
 .starFather {
     top: 230px;
@@ -85,7 +77,7 @@ h4 {
     margin-top: 6px;
 }
 
-
-.starArea:hover {
+#starArea:hover {
     background-color: aliceblue;
+    cursor: pointer;
 }
