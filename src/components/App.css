@@ -26,7 +26,7 @@
 .name {
     position: relative;
     font-size: 80px;
-    left: 160px;
+    left: 120px;
     top: 290px;
     color: rgb(251, 251, 251);
 }
@@ -34,7 +34,7 @@
 .description {
     position: relative;
     font-size: 25px;
-    left: 160px;
+    left: 110px;
     top: 300px;
     font-style: italic;
     color: rgb(157, 156, 152);
@@ -44,7 +44,7 @@
     width: 500px;
     bottom: 110px;
     position: relative;
-    left: 700px;
+    left: 750px;
     height: 650px;
     background: url('../images/logo_transparent.png') no-repeat center;
     background-size: cover;
