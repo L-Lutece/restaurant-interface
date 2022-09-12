@@ -27,7 +27,7 @@
     position: relative;
     font-size: 80px;
     left: 120px;
-    top: 290px;
+    top: 280px;
     color: rgb(251, 251, 251);
 }
 
@@ -35,14 +35,14 @@
     position: relative;
     font-size: 25px;
     left: 110px;
-    top: 300px;
+    top: 290px;
     font-style: italic;
     color: rgb(157, 156, 152);
 }
 
 .logo {
     width: 500px;
-    bottom: 110px;
+    bottom: 90px;
     position: relative;
     left: 750px;
     height: 650px;

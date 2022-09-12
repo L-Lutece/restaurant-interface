@@ -18,15 +18,15 @@ function Stack() {
 
                     <div className="starFather">
                         
-                        <div className="star1">
+                        <button id="starArea">
                             <h4>Básico</h4>
-                        </div>
-                        <div className="star2">
+                        </button>
+                        <button id="starArea">
                             <h4>Intermediário</h4>
-                        </div>
-                        <div className="star3">
+                        </button>
+                        <button id="starArea">
                             <h4>Avançado</h4>
-                        </div>
+                        </button>
                     </div>
                 </div>
             </div>
