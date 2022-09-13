@@ -6,6 +6,7 @@ function Contato() {
         <div className="container">
             <div className="App">
                 <div className="section4" id="contato">
+                    <h3 className="title">CONTATO</h3>
                     <div className="hold">
                         <div className="list">
                             <h3>Entre em contato comigo através dessas redes</h3>

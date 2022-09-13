@@ -7,6 +7,7 @@ function Project() {
         <div className="container">
             <div className="App">
                 <div className="section2" id="project">
+                    <h3 className="title">PROJETOS</h3>
                     <div className="proj">
                         <h5>Relógio Digital com horário de brasília</h5>
                         <p id="text1">sadasdasasfasf</p>

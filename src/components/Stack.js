@@ -1,7 +1,5 @@
 import React from "react";
 import './Stack.css';
-import prog from '../images/Prog.jpeg';
-
 function Stack() {
     return (
         <div className="container">
@@ -15,16 +13,27 @@ function Stack() {
                     </div>
 
                     <div className="starFather">
-                        
-                        <button id="starArea">
-                            <h4>Básico</h4>
-                        </button>
-                        <button id="starArea">
-                            <h4>Intermediário</h4>
-                        </button>
-                        <button id="starArea">
-                            <h4>Avançado</h4>
-                        </button>
+                        <div>
+                            <button id="starArea">
+                                <h4>Básico</h4>
+                            </button>
+                            <div className="skills">
+                            </div>
+                        </div>
+                        <div>
+                            <button id="starArea">
+                                <h4>Intermediário</h4>
+                            </button>
+                            <div className="skills1" onClick="show{s2}">
+                            </div>
+                        </div>
+                        <div>
+                            <button id="starArea">
+                                <h4>Avançado</h4>
+                            </button>
+                            <div className="skills2" onClick="show{s3}">
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>

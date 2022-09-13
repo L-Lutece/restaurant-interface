@@ -20,6 +20,17 @@
     left: 70px;
 }
 
+.title {
+    height: auto;
+    font-size: 25px;
+    background-color: rgb(60, 57, 57);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: rgb(155, 152, 152);
+    padding: 20px;
+}
+
 .hold {
     display: flex;
     justify-content: center;
