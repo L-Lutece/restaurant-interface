@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=Epilogue:ital,wght@0,500;1,700&family=Outfit:wght@400;700&display=swap');
+
+* {
+    font-family: 'Epilogue', sans-serif;
+}
+
+
+.App {
+    background-color: rgb(32, 32, 32);
+    height: 100%;
+    overflow-x: hidden;
+    overflow-y: hidden;
+}
+
+.section2 {
+    position: relative;
+    width: 90%;
+    height: 800px;
+    background-color: rgb(42, 40, 40);
+    justify-content: center;
+    align-items: center;
+    top: 50px;
+    left: 70px;
+}
+
+.proj {
+    margin: 0 auto;
+    display: row;
+    align-items: center;
+    width: 90%;
+    height: 90%;
+}
+
+.proj1{
+    width: 200px;
+    height: 200px;
+    margin-left: 60px;
+    background-image: url(../images/Jss.jpg);
+    overflow: hidden;
+    border-radius: 50%;
+}
+
+h5 {
+    position: relative;
+    left: 400px;
+    top: 10px;
+    font-size: 27px;
+    color: aliceblue;
+}
+
+#text1, #text2, #text3 {
+    position: relative;
+    left: 300px;
+    top: 20px;
+    font-size: 20px;
+    color: aliceblue;
+}
+
+.proj2 {
+    margin-top: 12px;
+    margin-left: 60px;
+    width: 200px;
+    height: 200px;
+    background-color: antiquewhite;
+    border-radius: 50%;
+}
+
+.proj3 {
+    margin-top: 12px;
+    width: 200px;
+    height: 200px;
+    margin-left: 60px;
+    background-color: antiquewhite;
+    border-radius: 50%;
+}

@@ -1,0 +1,51 @@
+@import url('https://fonts.googleapis.com/css2?family=Epilogue:ital,wght@0,500;1,700&family=Outfit:wght@400;700&display=swap');
+
+* {
+    font-family: 'Epilogue', sans-serif;
+}
+
+
+.App {
+    background-color:rgb(32, 32, 32);
+    height: 100%;
+    overflow-x: hidden;
+    overflow-y: hidden;
+}
+
+.section {
+    position: relative;
+    width: 90%;
+    height: 750px;
+    background-color: rgb(42, 40, 40);
+    justify-content: center;
+    align-items: center;
+    top: 50px;
+    left: 70px;
+}
+
+.name {
+    position: relative;
+    font-size: 80px;
+    left: 120px;
+    top: 280px;
+    color: rgb(251, 251, 251);
+}
+
+.description {
+    position: relative;
+    font-size: 25px;
+    left: 110px;
+    top: 290px;
+    font-style: italic;
+    color: rgb(157, 156, 152);
+}
+
+.logo {
+    width: 500px;
+    bottom: 90px;
+    position: relative;
+    left: 750px;
+    height: 650px;
+    background: url('../images/logo_transparent.png') no-repeat center;
+    background-size: cover;
+}
