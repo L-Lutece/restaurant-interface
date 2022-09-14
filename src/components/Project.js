@@ -1,6 +1,6 @@
 import React from "react";
 import './Project.css';
-import img1 from '../images/Jss.jpg';
+import img1 from '../images/jssf.jpg';
 
 function Project() {
     return (
@@ -8,19 +8,27 @@ function Project() {
             <div className="App">
                 <div className="section2" id="project">
                     <h3 className="title">PROJETOS</h3>
-                    <div className="proj">
-                        <h5>Relógio Digital com horário de brasília</h5>
-                        <p id="text1">sadasdasasfasf</p>
-                        <div className="proj1">    
+                    <div className="PAll">
+                        <div className="P1">
+                            <div className="titleP1">Relógio com JS</div>
+                        </div>                       
+                        <div className="P2">
+                            <div className="titleP">Cat</div>
                         </div>
-                        <p id="text2">sadasdasasfasf</p>
-                        <div className="proj2">
+                        <div className="P3">
+                            <div className="titleP">Loness</div>
                         </div>
-                        <p id="text3">sadasdasasfasf</p>
-                        <div className="proj3">
+                        <div className="P4">
+                            <div className="titleP">Depp</div>
+                        </div>
+                        <div className="P5">
+                            <div className="titleP">Soles</div>
+                        </div>
+                        <div className="P6">
+                            <div className="titleP">FAke</div>
                         </div>
                     </div>
-                </div>
+               </div>
             </div>
         </div>
     )

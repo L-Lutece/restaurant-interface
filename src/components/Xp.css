@@ -23,6 +23,20 @@
     left: 70px;
 }
 
+.xpC {
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+
+.xpT {
+    position: relative;
+    color: white;
+    top: 350px;
+    font-size: larger;
+    width: 900px;
+}
+
 .title {
     height: auto;
     font-size: 25px;

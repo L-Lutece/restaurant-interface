@@ -14,11 +14,9 @@
 
 .section2 {
     position: relative;
-    width: 90%;
+    width: 1368px;
     height: 800px;
     background-color: rgb(42, 40, 40);
-    justify-content: center;
-    align-items: center;
     top: 50px;
     left: 70px;
 }
@@ -34,53 +32,48 @@
     padding: 20px;
 }
 
-.proj {
-    margin: 0 auto;
-    display: row;
+.PAll {
+    position: relative;
+    top: 45px;
+    justify-content: center;
+}
+
+.P1 {
+    float: left;
+    width: 26%;
+    height: 220px;
+    background-image: url(../images/jssf.jpg);
+    background-repeat: no-repeat, no-repeat;
+    background-position: center;
+    margin: 40px 40px 0px 55px;
+    border-radius: 11px;
+}
+
+.P2, .P3, .P4, .P5, .P6 {
+    float: left;
+    width: 26%;
+    height: 220px;
+    background: red;
+    image-rendering: auto;
+    image-resolution: no-repeat;
+    margin: 40px 40px 0px 55px;
+    border-radius: 11px;
+}
+
+.titleP1 {
+    padding: 5px;
     align-items: center;
-    width: 90%;
-    height: 90%;
+    justify-content: center;
+    color: rgb(180, 180, 180);
+    display: flex;
+    background-color: rgb(60, 57, 57);;
 }
 
-.proj1{
-    width: 200px;
-    height: 200px;
-    margin-left: 60px;
-    background-image: url(../images/Jss.jpg);
-    overflow: hidden;
-    border-radius: 50%;
-}
-
-h5 {
-    position: relative;
-    left: 400px;
-    top: 10px;
-    font-size: 27px;
-    color: aliceblue;
-}
-
-#text1, #text2, #text3 {
-    position: relative;
-    left: 300px;
-    top: 20px;
-    font-size: 20px;
-    color: aliceblue;
-}
-
-.proj2 {
-    margin-top: 12px;
-    margin-left: 60px;
-    width: 200px;
-    height: 200px;
-    background-color: antiquewhite;
-    border-radius: 50%;
-}
-
-.proj3 {
-    margin-top: 12px;
-    width: 200px;
-    height: 200px;
-    margin-left: 60px;
-    background-color: antiquewhite;
-    border-radius: 50%;
+.titleP {
+    padding: 5px;
+    align-items: center;
+    justify-content: center;
+    color: rgb(180, 180, 180);
+    display: flex;
+    background-color: rgb(60, 57, 57);;
 }
