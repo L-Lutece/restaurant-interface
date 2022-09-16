@@ -1,5 +1,6 @@
 import React from "react";
 import './Stack.css';
+
 function Stack() {
     return (
         <div className="container">
@@ -14,25 +15,23 @@ function Stack() {
 
                     <div className="starFather">
                         <div>
-                            <button id="starArea">
+                            <button className="starArea1">
                                 <h4>Básico</h4>
                             </button>
                             <div className="skills">
                             </div>
                         </div>
                         <div>
-                            <button id="starArea">
+                            <button className="starArea2">
                                 <h4>Intermediário</h4>
                             </button>
-                            <div className="skills1" onClick="show{s2}">
+                            <div className="skills">
                             </div>
                         </div>
                         <div>
-                            <button id="starArea">
+                            <button id="starArea3">
                                 <h4>Avançado</h4>
                             </button>
-                            <div className="skills2" onClick="show{s3}">
-                            </div>
                         </div>
                     </div>
                 </div>

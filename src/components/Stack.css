@@ -62,17 +62,8 @@ h4 {
     display: row;
 }
 
-.skills {
-    margin: 0 auto;
-    justify-content: center;
-    align-items: center;
-    background-color: aqua;
-    height: 120px;
-    width: 80%;
-}
-
-#starArea {
-    border: 2px solid rgb(255, 255, 255);
+.starArea1{
+    border: 2px solid rgb(134, 133, 133);
     border-radius: 5px;
     padding: 5px;
     margin: 0 auto;
@@ -85,7 +76,15 @@ h4 {
     margin-top: 6px;
 }
 
-#starArea:hover {
-    background-color: aliceblue;
-    cursor: pointer;
+.skills {
+    margin: 0 auto;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+    border: 2px solid rgb(134, 133, 133);;
+    background-color: transparent;
+    height: 120px;
+    width: 80%;
+    display: none;
 }
+
