@@ -40,7 +40,6 @@ h4 {
 .textArea {
     position: relative;
     margin-top: 50px;
-
 }
 
 .textStar {
@@ -57,34 +56,92 @@ h4 {
 } 
 
 .starFather {
-    top: 230px;
+    background-color: rgb(60, 57, 57);;
+    top: 310px;
+    width: 97%;
+    left: 20px;
     position: relative;
-    display: row;
-}
-
-.starArea1{
-    border: 2px solid rgb(134, 133, 133);
-    border-radius: 5px;
-    padding: 5px;
-    margin: 0 auto;
-    width: 80%;
-    height: 80px;
-    justify-content: center;
+    justify-content:space-around;
     align-items: center;
     display: flex;
-    background-color: transparent;
-    margin-top: 6px;
 }
 
-.skills {
-    margin: 0 auto;
+
+
+.iconsArea1 {
+    position: relative;
+    top: 50px;
+    display: flex;
     justify-content: center;
     align-items: center;
-    border-radius: 5px;
-    border: 2px solid rgb(134, 133, 133);;
+    margin: 6px;
+}
+
+#icon:hover {
+    transform: scale(1.5);
+}
+
+.area1 {
+    position: absolute;
     background-color: transparent;
-    height: 120px;
-    width: 80%;
+    height: 200px;
+    width: 1050px;
+    top: 6px;
+}
+
+.area2 {
+    position: relative;
+    right: 405px;
+    background-color: transparent;
+    height: 200px;
+    width: 1050px;
+}
+
+.area3 {
+    position: absolute;
+    right: 48px;
+    background-color: transparent;
+    height: 200px;
+    width: 1050px;
+    top: 6px;
+}
+
+.link1 {
+    text-decoration: none;
+    color: white;
+    font-size: 25px;
+    padding: 15px;
+    display:inline-block;
+    cursor: pointer;
+}
+
+ul {
+    display: inline;
+    margin: 0;
+    padding: 0;
+}
+
+ul li {display: inline-block;}
+ul li:hover {
+    background: rgb(60, 57, 57);
+    color: rgb(84, 84, 84);
+}
+ul li:hover ul {display: block;}
+ul li ul {
+    position: absolute;
+    width: 200px;
     display: none;
 }
 
+ul li .area1 {  
+    display: block; 
+}
+
+ul li .area1  {display:block !important;} 
+ul li .area1:hover {background:rgb(60, 57, 57) }
+
+ul li .area2  {display:block !important;} 
+ul li .area2:hover {background:rgb(60, 57, 57) }
+
+ul li .area3  {display:block !important;} 
+ul li .area3:hover {background:rgb(60, 57, 57) }

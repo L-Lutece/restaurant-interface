@@ -1,6 +1,8 @@
 import React from "react";
 import './Stack.css';
-
+import { DiMysql, DiSass, DiLess, DiPython} from "react-icons/di";
+import { DiTerminal, DiReact, DiCss3, DiJavascript1, DiNodejsSmall, DiBootstrap, DiKrakenjsBadge, DiVisualstudio} from "react-icons/di";
+import { DiHtml5, DiGit, DiGithubBadge, DiNpm, } from "react-icons/di";
 function Stack() {
     return (
         <div className="container">
@@ -14,25 +16,59 @@ function Stack() {
                     </div>
 
                     <div className="starFather">
-                        <div>
-                            <button className="starArea1">
-                                <h4>Básico</h4>
-                            </button>
-                            <div className="skills">
-                            </div>
-                        </div>
-                        <div>
-                            <button className="starArea2">
-                                <h4>Intermediário</h4>
-                            </button>
-                            <div className="skills">
-                            </div>
-                        </div>
-                        <div>
-                            <button id="starArea3">
-                                <h4>Avançado</h4>
-                            </button>
-                        </div>
+
+                        <ul>
+                            <li>
+                                <div className="link1">Básico</div>
+                                <ul>
+                                    <div className="area1">
+                                        <div className="iconsArea1">
+                                            < DiMysql id="icon" color="Blue" fontSize="100px"/>
+                                            < DiSass id="icon" color="pink" fontSize="100px"/>
+                                            < DiLess id="icon" color="blue" fontSize="100px"/>
+                                            < DiPython id="icon" color="yellow" fontSize="100px"/>
+                                        </div>
+                                    </div>
+                                </ul>
+                            </li>
+                        </ul>
+
+                        <ul>
+                            <li>
+                            <div className="link1">Intermediário</div>
+                            <ul>
+                                <div className="area2">
+                                    <div className="iconsArea1">
+                                        < DiTerminal id="icon" color="Black" fontSize="100px"/>
+                                        < DiReact id="icon" color="Blue" fontSize="100px"/>
+                                        < DiCss3 id="icon" color="Blue" fontSize="100px"/>
+                                        < DiJavascript1 id="icon" color="Yellow" fontSize="100px"/>
+                                        < DiNodejsSmall id="icon" color="Green" fontSize="100px"/>
+                                        < DiBootstrap id="icon" color="Purple" fontSize="100px"/>
+                                        < DiKrakenjsBadge id="icon" color="Blue" fontSize="100px"/>
+                                        < DiVisualstudio id="icon" color="Blue" fontSize="100px"/>
+                                    </div>
+                                </div>
+                            </ul>
+                            </li>
+                        </ul>
+
+                        <ul>
+                            <li>
+                            <div className="link1">Avançado</div>
+                            <ul>
+                                <div className="area3">
+                                    <div className="iconsArea1">
+                                        < DiHtml5 id="icon" color="Orange" fontSize="100px"/>
+                                        < DiGit id="icon" color="Orange" fontSize="100px"/>
+                                        < DiGithubBadge id="icon" color="Black" fontSize="100px"/>
+                                        < DiNpm id="icon" color="Black" fontSize="100px"/>
+                                    </div>
+                                </div>
+                            </ul>
+                            </li>
+                        </ul>
+
                     </div>
                 </div>
             </div>
