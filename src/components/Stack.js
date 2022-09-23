@@ -3,72 +3,61 @@ import './Stack.css';
 import { DiMysql, DiSass, DiLess, DiPython} from "react-icons/di";
 import { DiTerminal, DiReact, DiCss3, DiJavascript1, DiNodejsSmall, DiBootstrap, DiKrakenjsBadge, DiVisualstudio} from "react-icons/di";
 import { DiHtml5, DiGit, DiGithubBadge, DiNpm, } from "react-icons/di";
+import { FaArrowsAltV } from "react-icons/fa";
+
 function Stack() {
+
     return (
         <div className="container">
             <div className="App">
                 <div className="section1" id="stack">
                     <h3 class="title">STACK</h3>
-                    <div className="textArea">
-                        <div className="textStar">
-                            <p>Nessa sessão vai ter todas as tecnologias que conheço e também o nível de conhecimento, sendo no <b>básico</b> as tecnologias que eu ainda não aprofundei ou tive pouca interação. No nível <b>intermediário</b> tecnologias que eu já usei bastante, mas que ainda realizo várias consultas para desenvolver algo. No nível <b>Avançado</b> são as que eu utilizo sempre para diversas coisas. </p>
+                    <div className="fManager">
+                        <div className="fContainer">
+                            <div className="stackTextArea">
+                                <div className="stackText">
+                                    <h4>Básico</h4>
+                                    <p>Aqui são tecnologias que conheci brevemente e tive pouco contato.</p>
+                                </div>
+                                <div className="stackTextS">
+                                    <h4>Avançado</h4>
+                                    <p>Tecnologias que tenho um conhecimento otimo, e sempre faço uso em meus projetos.</p>
+                                </div>
+                            </div>
+                            <div className="fBlock">
+                                <DiMysql color="blue" title="MySql" fontSize={100} id="icon"/>
+                                <DiSass color="pink" title="Sass" fontSize={100} id="icon"/>
+                                <DiLess color="blue" title="Less" fontSize={100} id="icon"/>
+                                <DiPython color="yellow" title="Python" fontSize={100} id="icon"/>
+                            </div>
+                            <div className="sBlock">
+                                <DiHtml5 color="#f56008" title="Html" fontSize={100} id="icon"/>
+                                <DiGit color="#f56008" title="Git" fontSize={100} id="icon"/>
+                                <DiGithubBadge color="black" title="Github" fontSize={100} id="icon"/>
+                                <DiNpm color="#be2f3c" title="NPM" fontSize={100} id="icon"/>
+                            </div>
                         </div>
+                        
                     </div>
-
-                    <div className="starFather">
-
-                        <ul>
-                            <li>
-                                <div className="link1">Básico</div>
-                                <ul>
-                                    <div className="area1">
-                                        <div className="iconsArea1">
-                                            < DiMysql id="icon" color="Blue" fontSize="100px"/>
-                                            < DiSass id="icon" color="pink" fontSize="100px"/>
-                                            < DiLess id="icon" color="blue" fontSize="100px"/>
-                                            < DiPython id="icon" color="yellow" fontSize="100px"/>
-                                        </div>
-                                    </div>
-                                </ul>
-                            </li>
-                        </ul>
-
-                        <ul>
-                            <li>
-                            <div className="link1">Intermediário</div>
-                            <ul>
-                                <div className="area2">
-                                    <div className="iconsArea1">
-                                        < DiTerminal id="icon" color="Black" fontSize="100px"/>
-                                        < DiReact id="icon" color="Blue" fontSize="100px"/>
-                                        < DiCss3 id="icon" color="Blue" fontSize="100px"/>
-                                        < DiJavascript1 id="icon" color="Yellow" fontSize="100px"/>
-                                        < DiNodejsSmall id="icon" color="Green" fontSize="100px"/>
-                                        < DiBootstrap id="icon" color="Purple" fontSize="100px"/>
-                                        < DiKrakenjsBadge id="icon" color="Blue" fontSize="100px"/>
-                                        < DiVisualstudio id="icon" color="Blue" fontSize="100px"/>
-                                    </div>
+                    <div className="fManager">
+                        <div className="sContainer">
+                            <div className="stackTextAreaS">
+                                <div className="stackTextT">
+                                    <h4>Intermediário</h4>
+                                    <p>São tecnologias que uso bastante e em varios momentos, mas realizo consultas para usar.</p>
                                 </div>
-                            </ul>
-                            </li>
-                        </ul>
-
-                        <ul>
-                            <li>
-                            <div className="link1">Avançado</div>
-                            <ul>
-                                <div className="area3">
-                                    <div className="iconsArea1">
-                                        < DiHtml5 id="icon" color="Orange" fontSize="100px"/>
-                                        < DiGit id="icon" color="Orange" fontSize="100px"/>
-                                        < DiGithubBadge id="icon" color="Black" fontSize="100px"/>
-                                        < DiNpm id="icon" color="Black" fontSize="100px"/>
-                                    </div>
-                                </div>
-                            </ul>
-                            </li>
-                        </ul>
-
+                            </div>
+                            <div className="tBlock">
+                                <DiTerminal color="black" title="CMD" fontSize={100} id="icon"/>
+                                <DiReact color="#a6d6ff" title="React.js" fontSize={100} id="icon"/>
+                                <DiCss3 color="blue" title="Css" fontSize={100} id="icon"/>
+                                <DiJavascript1 color="yellow" title="JavaScript" fontSize={100} id="icon"/>
+                                <DiNodejsSmall color="green" title="Node.js" fontSize={100} id="icon"/>
+                                <DiBootstrap color="#8f12c3" title="Bootstrap" fontSize={100} id="icon"/>
+                                <DiKrakenjsBadge color="#2285da" title="Git Kraken" fontSize={100} id="icon"/>
+                                <DiVisualstudio color="blue" title="VisualStudio" fontSize={100} id="icon"/>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
