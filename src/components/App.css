@@ -40,7 +40,8 @@
     color: rgb(157, 156, 152);
 }
 
-.logo {
+
+.logo { /*c*/
     width: 500px;
     bottom: 90px;
     position: relative;
