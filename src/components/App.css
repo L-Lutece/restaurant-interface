@@ -52,7 +52,7 @@
 
 
 
-@media (max-width: 320px) {
+@media (max-width: 380px) {
 
     .sectionApp {
         position: relative;
@@ -65,7 +65,7 @@
     
     .name {
         position: relative;
-        left: 20px;
+        left: 45px;
         font-size: 40px;
         top: 20px;
         color: rgb(251, 251, 251);
@@ -74,14 +74,14 @@
     .description {
         position: relative;
         font-size: 20px;
-        left: 30px;
+        left: 55px;
         top: 30px;
         color: rgb(157, 156, 152);
     }
 
     .logo {
         position: relative;
-        left: 35px;
+        left: 60px;
         top: 40px;
         width: 250px;
         height: 500px;
